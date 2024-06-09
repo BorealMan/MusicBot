@@ -10,7 +10,7 @@ An open source discord bot implemented in python.
 
 ## Requirements:
 
-# Install Requirements With pip
+### Install Requirements With pip
 
 ```
 pip install -r requirements.txt
