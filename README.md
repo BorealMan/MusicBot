@@ -10,6 +10,12 @@ An open source discord bot implemented in python.
 
 ## Requirements:
 
+# Install Requirements With pip
+
+```
+pip install -r requirements.txt
+```
+
 - Python 3.8 or higher
   - Discord.py
   - Discord.py[voice]
