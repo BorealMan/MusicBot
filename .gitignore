@@ -1,0 +1,9 @@
+# Directories
+old
+assets
+__pycache__
+
+
+# Files
+config.py
+push.sh

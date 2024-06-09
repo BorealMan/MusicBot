@@ -1,0 +1,14 @@
+[Unit]
+Description=MusicQT Service In Python
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/pi/Desktop/music_bot/main.py
+#WorkingDirectory=/home/pi/Desktop/music_bot
+User=pi
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target
