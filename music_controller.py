@@ -91,7 +91,10 @@ class MusicController:
 
     # time until last song plays - used when a new song is added
     def TimeUntilPlays(self):
-        seconds = self.currentsong.duration - self.currentsong_seconds_played
+        if self.currentsong.duration == None:
+            seconds = 0
+        else:
+            seconds = self.currentsong.duration - self.currentsong_seconds_played
         for song in self.q.queue[:self.q.Size()-1]:
             seconds += song.duration
         return seconds
